@@ -14,6 +14,6 @@ function logWhisper(string){
 }
 
 // to logShout
-function logShout(){
+function logShout(string){
   return console.log(string.toUpperUcase())
 }
