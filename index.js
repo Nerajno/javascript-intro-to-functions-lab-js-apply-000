@@ -20,7 +20,7 @@ function logShout(string){
 
 // sayHiToGrandma
 function sayHiToGrandma(string){
-  if(string === string.toLowerCase()){
+  if( string.toLowerCase()=== lowercase){
     return console.log("I can't hear you!");
   }
 }
