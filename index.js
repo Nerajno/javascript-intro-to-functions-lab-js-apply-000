@@ -18,10 +18,12 @@ function logShout(string){
   return console.log(string.toUpperCase())
 }
 
-// sayHiToGrandma
+// sayHiToGrandma -lowercase
 function sayHiToGrandma(string){
   let spceHlder = "I can\'t hear you!";
   if( string === string.toLowerCase()){
     return spceHlder;
   }
 }
+
+//
