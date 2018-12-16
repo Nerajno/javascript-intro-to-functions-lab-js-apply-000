@@ -24,4 +24,3 @@ function sayHiToGranda(string){
     return console.console.log("I can't hear you!");
   }
 }
-
