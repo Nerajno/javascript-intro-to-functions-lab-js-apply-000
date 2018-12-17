@@ -21,7 +21,7 @@ function logShout(string){
 // sayHiToGrandma -lowercase
 function sayHiToGrandma(string){
   let spceHlder1 = "I can\'t hear you!";
-  let spceHlder2 = "YES INDEED";
+  let spceHlder2 = "YES INDEED!";
   let spceHlder3 = "I love you, too.";
   if( string === string.toLowerCase()){
     return spceHlder1;
