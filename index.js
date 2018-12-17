@@ -31,5 +31,3 @@ function sayHiToGrandma(string){
     return spceHlder3;
   }
 }
-
-//
