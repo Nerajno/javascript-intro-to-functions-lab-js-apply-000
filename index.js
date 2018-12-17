@@ -20,9 +20,15 @@ function logShout(string){
 
 // sayHiToGrandma -lowercase
 function sayHiToGrandma(string){
-  let spceHlder = "I can\'t hear you!";
+  let spceHlder1 = "I can\'t hear you!";
+  let spceHlder2 = "YES INDEED";
+  let spceHlder3 = "I love you, too.";
   if( string === string.toLowerCase()){
-    return spceHlder;
+    return spceHlder1;
+  }else if(string === string.toUpperCase()){
+    return spceHlder2;
+  }else if(string != string.toUpperCase() || string !=toLowerCase()){
+    return spceHlder3;
   }
 }
 
